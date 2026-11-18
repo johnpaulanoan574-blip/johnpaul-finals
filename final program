@@ -1,0 +1,309 @@
+
+total = 0
+
+while True:
+    print("="*20)
+    print("PYTHON TUTORIAL")
+    print("="*20)
+    print("1. Introduction to Programming")
+    print("2. Basic Syntax")
+    print("3. Arithmetic Operations")
+    print("4. Input and Output")
+    print("5. Conditional Statements")
+    print("6. Logical Operators")
+    print("7. Iteration and Loops")
+    print("0. Exit")
+    print("="*20)
+
+    lesson = input("Choose a lesson: ")
+
+    score = 0
+
+    if lesson == "1":
+        print("INTRODUCTION TO PROGRAMMING")
+
+        print("1. Who created Python?")
+        print("a. Guido van Rossum")
+        print("b. Albert Einstein")
+        print("c. Bill Gates")
+        answer = input("Answer: ").lower()
+
+        if answer == "a":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is a.")
+
+        print("2. When was Python released?")
+        print("a. 1990")
+        print("b. 1991")
+        print("c. 1950")
+        answer = input("Answer: ").lower()
+
+        if answer == "b":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is b.")
+
+        print("3. What is Python?")
+        print("a. Low-level language")
+        print("b. Hardware")
+        print("c. High-level programming language")
+        answer = input("Answer: ").lower()
+
+        if answer == "c":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is c.")
+
+    elif lesson == "2":
+        print("BASIC SYNTAX")
+
+        print("1. What symbol starts a comment?")
+        print("a. //")
+        print("b. #")
+        print("c. **")
+        answer = input("Answer: ").lower()
+
+        if answer == "b":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is b.")
+
+        print("2. Which function displays output?")
+        print("a. input()")
+        print("b. show()")
+        print("c. print()")
+        answer = input("Answer: ").lower()
+
+        if answer == "c":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is c.")
+
+        print("3. How do you create a variable?")
+        print("a. x = 10")
+        print("b. 10 = x")
+        print("c. x == 10")
+        answer = input("Answer: ").lower()
+
+        if answer == "a":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is a.")
+
+    elif lesson == "3":
+        print("ARITHMETIC OPERATIONS")
+
+        print("1. What is 10 * 3?")
+        print("a. 30")
+        print("b. 33")
+        print("c. 50")
+        answer = input("Answer: ").lower()
+
+        if answer == "a":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is a.")
+
+        print("2. What is 2 ** 3?")
+        print("a. 6")
+        print("b. 8")
+        print("c. 9")
+        answer = input("Answer: ").lower()
+
+        if answer == "b":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is b.")
+
+        print("3. What is 10 % 3?")
+        print("a. 3")
+        print("b. 0")
+        print("c. 1")
+        answer = input("Answer: ").lower()
+
+        if answer == "c":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is c.")
+
+    elif lesson == "4":
+        print("INPUT AND OUTPUT")
+
+        print("1. Which function gets user input?")
+        print("a. print()")
+        print("b. input()")
+        print("c. get()")
+        answer = input("Answer: ").lower()
+
+        if answer == "b":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is b.")
+
+        print("2. What does print('Hello') display?")
+        print("a. Hello")
+        print("b. Nothing")
+        print("c. Error")
+        answer = input("Answer: ").lower()
+
+        if answer == "a":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is a.")
+
+        print("3. What does input() return?")
+        print("a. Integer")
+        print("b. Float")
+        print("c. String")
+        answer = input("Answer: ").lower()
+
+        if answer == "c":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is c.")
+
+    elif lesson == "5":
+        print("CONDITIONAL STATEMENTS")
+
+        print("1. Which keyword checks a condition?")
+        print("a. if")
+        print("b. loop")
+        print("c. print")
+        answer = input("Answer: ").lower()
+
+        if answer == "a":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is a.")
+
+        print("2. What is the result of 5 > 3?")
+        print("a. False")
+        print("b. True")
+        print("c. Error")
+        answer = input("Answer: ").lower()
+
+        if answer == "b":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is b.")
+
+        print("3. What does == mean?")
+        print("a. Assignment")
+        print("b. Equal comparison")
+        print("c. Greater than")
+        answer = input("Answer: ").lower()
+
+        if answer == "b":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is b.")
+
+    elif lesson == "6":
+        print("LOGICAL OPERATORS")
+
+        print("1. What is True and False?")
+        print("a. True")
+        print("b. False")
+        print("c. Error")
+        answer = input("Answer: ").lower()
+
+        if answer == "b":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is b.")
+
+        print("2. What is True or False?")
+        print("a. True")
+        print("b. False")
+        print("c. Error")
+        answer = input("Answer: ").lower()
+
+        if answer == "a":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is a.")
+
+        print("3. What is not True?")
+        print("a. True")
+        print("b. Error")
+        print("c. False")
+        answer = input("Answer: ").lower()
+
+        if answer == "c":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is c.")
+
+    elif lesson == "7":
+        print("ITERATION AND LOOPS")
+
+        print("1. How many times does range(3) repeat?")
+        print("a. 2")
+        print("b. 4")
+        print("c. 3")
+        answer = input("Answer: ").lower()
+
+        if answer == "c":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is c.")
+
+        print("2. What are the two main loops?")
+        print("a. for and while")
+        print("b. if and else")
+        print("c. print and input")
+        answer = input("Answer: ").lower()
+
+        if answer == "a":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is a.")
+
+        print("3. Which keyword stops a loop?")
+        print("a. stop")
+        print("b. break")
+        print("c. pass")
+        answer = input("Answer: ").lower()
+
+        if answer == "b":
+            print("Correct!")
+            score += 1
+        else:
+            print("Wrong! Answer is b.")
+
+    elif lesson == "0":
+        print("FINAL TOTAL SCORE:", total)
+        print("THANK YOU FOR LEARNING!")
+        break
+
+    else:
+        print("Invalid choice!")
+        continue
+
+    total += score
+
+    print("="*20)
+    print("YOUR SCORE:", score, "/ 3")
+    print("TOTAL SCORE:", total)
+    print("="*20)
